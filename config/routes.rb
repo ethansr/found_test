@@ -1,4 +1,6 @@
 Found::Application.routes.draw do
+  resources :cheeses
+  root :to => 'cheeses#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

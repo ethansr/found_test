@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @cheese.name %>
+</p>
+
+<p>
+  <b>Color:</b>
+  <%= @cheese.color %>
+</p>
+
+
+<%= link_to 'Edit', edit_cheese_path(@cheese) %> |
+<%= link_to 'Back', cheeses_path %>
